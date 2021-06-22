@@ -8,7 +8,7 @@ export class Main extends Component {
         return (
             <div>
             {hornsData.map(horn=>{
-            return  <HornedBeasts click={0} title = {horn.title} image_url = {horn.image_url} description = {horn.description}/>
+            return  <HornedBeasts clicks ={0} title = {horn.title} image_url = {horn.image_url} description = {horn.description}/>
             })}
 
             </div>
