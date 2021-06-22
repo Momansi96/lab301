@@ -6,11 +6,11 @@ import Main from './Main'
 export class App extends Component {
   render() {
     return (
-      <div>
+      <>
         <Header />
         <Main />
         <Footer />
-      </div>
+      </>
     )
   }
 }
